@@ -1,1 +1,5 @@
 <p>{{quote.description}}</p>
+        <h6>posted on:{{quote.postDate |date:'short'}}</h6>
+<button (click)= 'quoteComplete(true)'>Complete</button> <br>
+<button class="btn btn-primary m-2" (click)="onClick($event)">UP VOTE</button>
+<button class="btn btn-primary m-2">DOWN VOTE</button>
