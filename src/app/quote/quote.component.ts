@@ -26,6 +26,15 @@ export class QuoteComponent implements OnInit {
       this.quotes.splice(index,1);
     }
   }
+
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.quote= quote.quote;
+    quote.description= quote.description;
+    quote.postDate = new Date();
+    this.quotes.push(quote)
+  }
   
   constructor() { }
 
