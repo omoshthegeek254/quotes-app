@@ -1,11 +1,12 @@
 <div class="container">
-  <h2 class="jumbotron fluid text-center">Famous Quotes</h2>
+  
   <hr />
 
   <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 ">
+          <h1 class="text-center ">Top Quotes</h1>
           <div *ngFor="let quote of quotes; let i = index">
-                <ul >
+                <ul id="qt" >
                         <li>
                           {{ quote.quote }}
                         </li>
@@ -23,7 +24,7 @@
       </div>
 
       <div class="col-md-6">
-            <h2>Recently posted Quotes</h2>
+            
             <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
           </div>
 
