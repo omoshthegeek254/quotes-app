@@ -11,7 +11,7 @@
                             
                              <h6> <span class="badge badge-secondary"> Posted</span> {{quote.postDate|timeAgo}} </h6>
                         </li>
-                        <button (click)="toggleDetails(i)">More Details</button>
+                        <button class=" btn btn-danger" (click)="toggleDetails(i)">More Details</button>
                         <app-quote-detail
                           *ngIf="quote.showDescription"
                           [quote]="quote"
