@@ -33,7 +33,7 @@ export class QuoteComponent implements OnInit {
     quote.quote= quote.quote;
     quote.description= quote.description;
     quote.postDate = new Date();
-    this.quotes.push(quote)
+    this.quotes.unshift(quote)
   }
   
   constructor() { }
