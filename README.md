@@ -1,6 +1,12 @@
-# QuotesApp
+# Quotes Haven
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+This project was created using type script, and Angular 8.
+
+# Contributors
+
+- Name - Elvin Moracha
+- Developer type - Full stack
+
 
 ## Development server
 
