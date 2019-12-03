@@ -7,6 +7,25 @@ This project was created using type script, and Angular 8.
 - Name - Elvin Moracha
 - Developer type - Full stack
 
+## Technology Used
+ - HTML-used it for displaying the content.
+ - CSS-used it  and bootstrap for styling the webpage
+ - JavaScript - used it and the Jquery library to achieve interactivity
+
+
+
+
+
+# Contact information.
+ - Email: omoshthegeek@gmail.com.
+ - Telegram : @omoshthegeek254
+# License and Copyright information.
+ - MIT License Copyright (c) 2019 (Omoshthegeek)
+ 
+ - [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
+
+
 
 ## Development server
 
@@ -28,6 +47,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ # Support or contribution instructions
+For those inspired by my projects and feel like appreciating me finacial wise, you are more than welcome to send your contributions to the platforms below :
+ #### Paypal :
+* ###### @ omoshthegeek@gmail.com
